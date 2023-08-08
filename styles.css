@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+	font-family: "Roboto", sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #1f2937;
+	color: #e5e7eb;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+}
+
+.logo {
+	font-size: 24px;
+	color: #f9faf8;
+	margin-left: 4in;
+	margin-bottom: 0.5rem;
+}
+
+.header-link:last-child {
+	margin-right: 4in;
+}
+
+.header-link {
+	margin-left: 20px;
+	font-size: 18px;
+	color: #e5e7eb;
+	text-decoration: none;
+}
+
+.hero {
+	display: flex;
+	padding: 2rem;
+}
+
+.hero-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-right: 1in;
+	margin-left: 2in;
+}
+
+.hero-main-text {
+	font-size: 48px;
+	font-weight: bold;
+	margin-right: 1.5in;
+	margin-left: 1.8in;
+	margin-bottom: 0.5rem;
+}
+
+.hero-subtext {
+	font-size: 18px;
+	margin-top: 10px;
+	max-width: 400px;
+	margin-left: 1.8in;
+	margin-bottom: 1rem;
+}
+
+.signup-button {
+	width: 100px;
+	height: 30px;
+	font-weight: bold;
+	margin-top: 10px;
+	background-color: #3882f6;
+	color: white;
+	border: none;
+	cursor: pointer;
+	border-radius: 16px;
+	padding: 5px 10px;
+	font-size: 15px;
+	margin-left: 1.8in;
+}
+
+.image-placeholder {
+	width: 500px;
+	height: 235px;
+	background-color: #888888;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 0.5in;
+	margin-top: 3rem;
+}
+
+.placeholder-text {
+	text-align: center;
+}
